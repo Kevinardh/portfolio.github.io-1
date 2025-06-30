@@ -42,21 +42,19 @@ function App() {
       profileImage: "https://avatars.githubusercontent.com/u/165297553?v=4" // Ganti dengan path foto Anda
     },
     profile: {
-      greeting: "Halo! Saya seorang mahasiswa Sistem Informasi yang passionate dalam dunia teknologi dan pengembangan software. Saya memiliki minat khusus dalam web development, data analysis, dan user experience design.",
+      greeting: "Halo! Saya seorang mahasiswa Sistem Informasi yang passionate dalam dunia teknologi dan pengembangan software. Saya memiliki minat khusus dalam web development, machine learning, dan user experience design.",
       description: "Selama perjalanan akademik saya, saya telah mengembangkan berbagai proyek yang menggabungkan teori sistem informasi dengan praktik pengembangan modern. Saya selalu antusias untuk mempelajari teknologi baru dan berkontribusi dalam proyek-proyek yang memberikan dampak positif.",
       mission: "Misi saya adalah menjadi profesional IT yang dapat menjembatani kebutuhan bisnis dengan solusi teknologi yang inovatif dan user-friendly.",
       currentFocus: [
         "Full Stack Web Development",
         "Machine Learning dan Data Science",
-        "UI/UX Design dan User Research"
+        "UI/UX Design"
       ]
     },
     expertise: [
       "Web Development",
       "Mobile App Development",
-      "Data Analysis",
-      "Database Management",
-      "System Analysis & Design",
+      "Data Science & Machine Learning",
       "UI/UX Design"
     ],
     experience: [
@@ -70,7 +68,7 @@ function App() {
         title: " UX Today Competition",
         company: "Institut Pertanian Bogor",
         period: "Jul 2024 - Aug 2024",
-        description: "Menganalisis data survey dan membuat dashboard visualization menggunakan Python"
+        description: "Berpartisipasi dalam kompetisi desain UX dengan mengembangkan konsep aplikasi AgroVerify, solusi digital untuk traceability hasil panen seperti buah dan sayur dari kebun ke konsumen."
       }
     ],
     projects: [
@@ -114,20 +112,12 @@ function App() {
         description: "Merancang user interface dan user experience menggunakan Figma untuk mempermudah konsumen dalam melacak distribusi, kualitas, dan informasi panen.",
         // github: "https://github.com/johndoe/e-learning-app",
         demo: "https://www.figma.com/design/ENxzipTMgn7GzuxEY2Gp5x/IT-TODAY-ROAD-IPB--Copy-?node-id=0-1&t=XiuVV7p8gtaikiF5-1"
-      },
-      {
-        title: "Proyek E-Learning",
-        tech: ["React", "Node.js", "MongoDB"],
-        description: "Aplikasi e-learning dengan fitur kelas virtual, kuis, dan forum diskusi.",
-        github: "https://github.com/johndoe/e-learning-app",
-        demo: "https://johndoe.github.io/e-learning-app"
       }
-
     ],
     education: [
       {
         degree: "S1 Sistem Informasi",
-        school: "Universitas Indonesia",
+        school: "Universitas Hasanuddin",
         period: "2023 - Sekarang",
         gpa: "3.82/4.00"
       },
@@ -139,9 +129,9 @@ function App() {
       }
     ],
     skills: {
-      programming: ["JavaScript", "Python", "PHP", "Java", "SQL", "HTML/CSS"],
-      dataVisualization: ["Python (Matplotlib, Seaborn)", "Tableau", "Power BI", "Excel"],
-      software: ["VS Code", "Git", "Figma", "MySQL Workbench", "Postman", "Docker"],
+      programming: ["JavaScript", "Python", "PHP", "Java","C++"],
+      dataVisualization: ["Python (Matplotlib, Seaborn)", "Tableau"],
+      software: ["Android Studio", "Canva", "ClickUp", "Capcut", "Cursor", "Draw.io", "Figma", "Filmora", "Git (CLI)", "GitHub", "Inkscape", "IntelliJ IDEA", "MySQL Workbench", "Notion", "OBS Studio", "Postman", "Sublime Text", "Visual Studio Code"],
       softSkills: ["Problem Solving", "Team Work", "Leadership", "Communication", "Time Management", "Critical Thinking"]
     }
   }  // Navigation handler
@@ -388,7 +378,7 @@ function App() {
 
                 <div className="hero-stats">
                   <div className="stat-card">
-                    <span className="stat-number">3+</span>
+                    <span className="stat-number">6+</span>
                     <span className="stat-label">Projects</span>
                   </div>
                   <div className="stat-card">
@@ -396,7 +386,7 @@ function App() {
                     <span className="stat-label">Experience</span>
                   </div>
                   <div className="stat-card">
-                    <span className="stat-number">3.85</span>
+                    <span className="stat-number">3.82</span>
                     <span className="stat-label">GPA</span>
                   </div>
                 </div>
