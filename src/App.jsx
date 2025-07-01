@@ -65,6 +65,12 @@ function App() {
         description: "Menyusun proposal program pemberdayaan desa wisata berbasis digital, berperan sebagai sekretaris tim: menyusun dokumen perencanaan, logbook, dan kebutuhan administrasi lainnya, dan berkoordinasi dengan pihak desa untuk penyusunan rencana kegiatan kolaboratif."
       },
       {
+        title: "Lab Asisten OOP Java Sistem Informasi ",
+        company: "Universitas Hasanuddin",
+        period: "Jan 2025 - Jul 2025",
+        description: "Membantu dosen dalam pelaksanaan praktikum OOP Java untuk mahasiswa Sistem Informasi, membuat materi praktikum, membimbing mahasiswa dalam pemrograman berorientasi objek, serta melakukan penilaian tugas dan ujian praktikum."
+      },
+      {
         title: " UX Today Competition",
         company: "Institut Pertanian Bogor",
         period: "Jul 2024 - Aug 2024",
