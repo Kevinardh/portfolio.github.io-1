@@ -125,7 +125,7 @@ function App() {
         degree: "S1 Sistem Informasi",
         school: "Universitas Hasanuddin",
         period: "2023 - Sekarang",
-        gpa: "3.82/4.00"
+        gpa: "3.87/4.00"
       },
       {
         degree: "SMA IPA",
@@ -392,7 +392,7 @@ function App() {
                     <span className="stat-label">Experience</span>
                   </div>
                   <div className="stat-card">
-                    <span className="stat-number">3.82</span>
+                    <span className="stat-number">3.87</span>
                     <span className="stat-label">GPA</span>
                   </div>
                 </div>
